@@ -1,0 +1,9 @@
+rootProject.name = 'ReactNativeGestureHandlerGallery'
+include ':react-native-fast-image'
+project(':react-native-fast-image').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fast-image/android')
+include ':react-native-reanimated'
+project(':react-native-reanimated').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-reanimated/android')
+include ':react-native-gesture-handler'
+project(':react-native-gesture-handler').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-gesture-handler/android')
+
+include ':app'
