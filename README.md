@@ -2,8 +2,7 @@
 
 A photo gallery made with react-native-gesture-handler.
 
-![Preview](/review.gif)
-
+<img src="preview.gif" alt="preview" width="200px"/>
 Supports:
 
 1. Pinch thumbnail to scale
